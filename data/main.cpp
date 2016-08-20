@@ -23,7 +23,7 @@ int main()
     std::cout << "]\n\nMATLAB: plot(y)\n";
 	
     /**
-    Offline forward-backward filtering with (0, 10)-random input
+    Offline forward-backward filtering with [1, 10]-random input signal
     */
 
     double* input = new double[size];
@@ -34,7 +34,7 @@ int main()
         input[i] = rand() % 10 + 1;
     }
 
-    bw.filter(input, output, size, 5.0, false);
+    bw.filter(input, output, size, 5.5, true);
 
     std::cin.get();
 
