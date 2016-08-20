@@ -6,13 +6,13 @@ int main()
 {
     std::cout << "SOS of ButterworthLP(2400, 80, 11):\n\n";
 
-	ButterworthLP bw = ButterworthLP(2400, 80, 11);
+    ButterworthLP bw = ButterworthLP(2400, 80, 11);
 	
     std::cout << "\n##############################################\n";
 
     bw.stepInitialization(0);
 
-	size_t size = 400;
+    size_t size = 400;
 
     std::cout << "\nStep response for x = ones(1, " << size << "):\n\ny = [";
     for (size_t i = 0; i < size; ++i)
@@ -26,17 +26,17 @@ int main()
     Offline forward-backward filtering with (0, 10)-random input
     */
 
-	double* input = new double[size];
-	double* output = new double[size];
+    double* input = new double[size];
+    double* output = new double[size];
 
-	for (size_t i = 0; i < size; ++i)
-	{
-		input[i] = rand() % 10 + 1;
-	}
+    for (size_t i = 0; i < size; ++i)
+    {
+        input[i] = rand() % 10 + 1;
+    }
 
-	bw.filter(input, output, size, 5.0, false);
+    bw.filter(input, output, size, 5.0, false);
 
-	std::cin.get();
+    std::cin.get();
 
     return 0;
 }
