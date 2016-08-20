@@ -1,5 +1,5 @@
 #define DEBUG 1
-#include "ButterworthLP.h"
+#include "../ButterworthLP.h"
 #include <iostream>
 
 int main()
