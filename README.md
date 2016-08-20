@@ -11,5 +11,5 @@ Resulting SOS is similar to the following MATLAB design:<br />
 <br />
 <p align="center">
   <img src="test/butterworth_step_respose.png" width="536"/><br />
-  Step response and SOS matrix of an 11-th order Butterworth lowpass filter 
+  <i>Step response and SOS matrix of an 11-th order Butterworth lowpass filter</i>
 </p>
