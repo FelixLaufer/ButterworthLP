@@ -1,8 +1,6 @@
 #include <vector>
 #include <complex>
 
-#define DEBUG 1
-
 #ifdef DEBUG
     #include <iostream>
     #include <iomanip>
