@@ -10,6 +10,6 @@ Resulting SOS is similar to the following MATLAB design:<br />
 <br />
 <br />
 <p align="center">
-  <img src="http://felixlaufer.de/github/butterworth_step_respose.png" width="536"/><br />
+  <img src="data/butterworth_step_respose.png" width="536"/><br />
   Step response and SOS matrix of an 11-th order Butterworth lowpass filter 
 </p>
