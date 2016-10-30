@@ -1,5 +1,5 @@
 # ButterworthLP
-Butterworth lowpass n-th order filter implementation using cascaded second-order sections (SOS).
+Butterworth n-th order lowpass filter implementation using cascaded second-order sections (SOS).
 
 Resulting SOS is similar to the following MATLAB design:<br />
 <pre>
