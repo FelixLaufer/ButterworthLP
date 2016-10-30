@@ -1,7 +1,7 @@
 # ButterworthLP
 Butterworth n-th order lowpass filter implementation using cascaded second-order sections (SOS).
 
-Computed SOSs are identical to the general MATLAB design process:<br />
+Computed SOSs are identical to the general MATLAB result:<br />
 <pre>
 [z, p, k] = butter(order, cutoffFreq*2*pi, 'low', 's');
 [zd, pd, kd] = bilinear(z, p, k, samplingFreq);
