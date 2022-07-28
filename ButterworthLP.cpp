@@ -1,3 +1,5 @@
+// MIT License, Copyright (c) 2016 Felix Laufer
+
 #include "ButterworthLP.h"
 #include <math.h>
 
