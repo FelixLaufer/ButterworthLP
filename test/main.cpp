@@ -1,3 +1,5 @@
+// MIT License, Copyright (c) 2016 Felix Laufer
+
 #define DEBUG 1
 #include "../ButterworthLP.h"
 #include <iostream>
